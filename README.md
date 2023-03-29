@@ -1,7 +1,8 @@
 # Covid-Data-Pipeline
 
-Covid-Data-Pipeline
 This repository contains a simple example of a data pipeline using Databricks that processes and presents data related to COVID-19 infections in the USA. The pipeline consists of several stages, each of which is performed using Python and PySpark in separate notebooks. The pipeline is executed using the Databricks workflow, which allows for the automation and scheduling of tasks.
+
+
 
 <p align="center">
   <img src="https://github.com/jvcamacho1/Covid-Data-Pipeline/blob/main/Images/Pipeline.jpg?raw=true" alt="Pipeline Image"/>
