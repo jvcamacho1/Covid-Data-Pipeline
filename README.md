@@ -10,23 +10,23 @@ This repository contains a simple example of a data pipeline using Databricks th
 ##Pipeline Stages
 The pipeline consists of the following stages:
 
-1.**Data Ingestion: In this stage, raw data related to COVID-19 infections in the USA is collected from various sources and consolidated into a single dataset.
+1.**Data Ingestion:** In this stage, raw data related to COVID-19 infections in the USA is collected from various sources and consolidated into a single dataset.
 
-2.**Data Cleaning: In this stage, the data is cleaned and standardized to ensure consistency and accuracy.
+2.**Data Cleaning:** In this stage, the data is cleaned and standardized to ensure consistency and accuracy.
 
-3.**Data Transformation: In this stage, the cleaned data is transformed to create additional features and enrich the dataset.
+3.**Data Transformation:** In this stage, the cleaned data is transformed to create additional features and enrich the dataset.
 
-4.**Data Visualization: In this stage, the data is visualized using the Folium library, which creates an interactive map of all states in the USA, showing the number of COVID-19 cases and deaths.
+4.**Data Visualization:** In this stage, the data is visualized using the Folium library, which creates an interactive map of all states in the USA, showing the number of COVID-19 cases and deaths.
 
 Each stage generates an intermediate file that is stored in Parquet format for greater efficiency. The raw data is the unprocessed data. The bronze data is the cleaned and standardized data, the silver data is the transformed and enriched data, and the Gold Data is the vizualization data.
 
-How to Use
+##How to Use
 To use this pipeline, follow these steps:
 
-Clone the repository to your local machine.
-Open each notebook in the pipeline folder and run the code in the order specified above.
-View the final output in the data visualization stage, which displays an interactive map of COVID-19 infections in the USA.
-Conclusion
+1.Clone the repository to your local machine.
+2.Open each notebook in the pipeline folder and run the code in the order specified above.
+3.View the final output in the data visualization stage, which displays an interactive map of COVID-19 infections in the USA.
+##Conclusion
 This COVID-19 data pipeline is a simple example of how to use Databricks to process and visualize data. It can be customized and adapted to work with different datasets and pipelines. We hope that this example serves as a starting point for your own data projects.
 
 
